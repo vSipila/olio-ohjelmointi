@@ -1,0 +1,87 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Car {
+private:
+    string brand;
+    string model;
+    int yearModel;
+
+public:
+    void printData() {
+        cout << "Brand: " << brand << ", Model: " << model << ", Year: " << yearModel << endl;
+    }
+
+    void setBrand(const string& b) {
+        brand = b;
+    }
+
+    void setModel(const string& m) {
+        model = m;
+    }
+
+    void setYearModel(int y) {
+        yearModel = y;
+    }
+};
+
+class Rectangle {
+private:
+    double height;
+    double width;
+
+public:
+    double getArea() {
+        return width * height;
+    }
+
+    double getCircum() {
+        return 2 * (width + height);
+    }
+
+    void setHeight(double h) {
+        height = h;
+    }
+
+    void setWidth(double w) {
+        width = w;
+    }
+};
+
+class Student {
+private:
+    string name;
+    int studentNumber;
+    double average;
+
+public:
+    void setName(const string& n) {
+        name = n;
+    }
+
+    void setStudentNumber(int sn) {
+        studentNumber = sn;
+    }
+
+    void setAverage(double avg) {
+        average = avg;
+    }
+
+    string getName() {
+        return name;
+    }
+
+    int getStudentNumber() {
+        return studentNumber;
+    }
+
+    double getAverage() {
+        return average;
+    }
+};
