@@ -1,0 +1,7 @@
+C:/Users/sipil/h6a/build/CMakeFiles/h6a.dir
+C:/Users/sipil/h6a/build/CMakeFiles/edit_cache.dir
+C:/Users/sipil/h6a/build/CMakeFiles/rebuild_cache.dir
+C:/Users/sipil/h6a/build/CMakeFiles/list_install_components.dir
+C:/Users/sipil/h6a/build/CMakeFiles/install.dir
+C:/Users/sipil/h6a/build/CMakeFiles/install/local.dir
+C:/Users/sipil/h6a/build/CMakeFiles/install/strip.dir
